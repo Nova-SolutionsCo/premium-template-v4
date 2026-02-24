@@ -266,106 +266,6 @@
             letter-spacing: 1px;
         }
 
-        /* BEFORE/AFTER SECTION */
-        .comparison {
-            padding: 100px 20px;
-            background: var(--charcoal);
-        }
-
-        .comparison .section-title {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: clamp(32px, 5vw, 48px);
-            font-weight: 700;
-            text-align: center;
-            margin-bottom: 60px;
-            color: var(--white);
-        }
-
-        .comparison .section-title span {
-            color: var(--accent);
-        }
-
-        .comparison-grid {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 4px;
-            background: var(--slate);
-            border-radius: 20px;
-            overflow: hidden;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
-        }
-
-        .comparison-panel {
-            padding: 40px;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .comparison-panel.before {
-            background: var(--zinc);
-        }
-
-        .comparison-panel.after {
-            background: linear-gradient(135deg, var(--slate), var(--charcoal));
-        }
-
-        .comparison-label {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            padding: 8px 16px;
-            border-radius: 8px;
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 14px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .comparison-panel.before .comparison-label {
-            background: #ef4444;
-            color: white;
-        }
-
-        .comparison-panel.after .comparison-label {
-            background: #22c55e;
-            color: white;
-        }
-
-        .comparison-icon {
-            font-size: 80px;
-            margin-bottom: 20px;
-        }
-
-        .comparison-panel h3 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 28px;
-            font-weight: 700;
-            margin-bottom: 15px;
-        }
-
-        .comparison-panel.before h3 {
-            color: var(--muted);
-        }
-
-        .comparison-panel.after h3 {
-            color: var(--white);
-        }
-
-        .comparison-panel p {
-            color: var(--muted);
-            font-size: 16px;
-            max-width: 300px;
-        }
-
         /* REVIEWS SECTION */
         .reviews {
             padding: 100px 20px;
@@ -637,14 +537,6 @@
                 align-items: center;
             }
             
-            .comparison-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .comparison-panel {
-                min-height: 250px;
-            }
-            
             .contact-form {
                 padding: 30px 20px;
             }
@@ -712,27 +604,6 @@
                         <div class="label">Jobs Completed</div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- BEFORE/AFTER SECTION -->
-    <section class="comparison">
-        <h2 class="section-title">Transform Your <span>Business</span></h2>
-        
-        <div class="comparison-grid">
-            <div class="comparison-panel before">
-                <span class="comparison-label">Before</span>
-                <div class="comparison-icon">🏚️</div>
-                <h3>Your Current Website</h3>
-                <p>Outdated design, poor mobile experience, no leads, hidden from customers</p>
-            </div>
-            
-            <div class="comparison-panel after">
-                <span class="comparison-label">After</span>
-                <div class="comparison-icon">🚀</div>
-                <h3>Your New Website</h3>
-                <p>Professional design, mobile-first, lead-generating, found by customers</p>
             </div>
         </div>
     </section>
